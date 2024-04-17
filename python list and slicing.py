@@ -1,4 +1,4 @@
-10.  
+1  
 	l = [15, 18, 2, 22, 181,2,45]
 n = len(l)
 target = 2
@@ -17,7 +17,7 @@ output:
 
 
 
-11.
+2.
 	def findtotaloccurences(listofnumbers, target):
     result = 0
     n = len(listofnumbers)
@@ -35,7 +35,7 @@ print(result)
 output: error
 
 
-12.
+3.
 	def totalevenno(l):
     result = 0
     n = len(l)
@@ -53,9 +53,9 @@ print("total even numbers is",result)
  	total even numbers is 7
 
 
-13.
+4.
 
-	def findgreaterelement(nmbers):
+def findgreaterelement(nmbers):
     result = 0
     n = len(numbers)
 
@@ -74,7 +74,8 @@ output:
 
 
 
-14.	def findsmallerelement(numbers):
+5.	
+def findsmallerelement(numbers):
     result = 100
     n = len(numbers)
 
@@ -92,7 +93,7 @@ print("smallest number is:" , result)
 output: smallest number is: 11
 
 
-15.	l = list(map(int, input().split()))
+6.	l = list(map(int, input().split()))
 print(l)
 print(l[0])  #start index
 print(l[-1])# revers index  printing
@@ -104,7 +105,7 @@ output:
         66
 
 
-16.
+7.
 
  l = list(map(int, input().split()))
 print(l)
@@ -121,8 +122,8 @@ output: [11, 22, 33, 44, 55, 66, 58, 58, 11, 22]
 
 
 
-17.    
-	#slicing
+8.    
+#slicing
 word = input()
 
 t= word[2:9]
@@ -132,8 +133,8 @@ print(t)
 output: annavee
 
 
-18.
-    #slicing
+9.
+#slicing
 word = input()
 print(word[::-1])
 t= word[5:10]
@@ -166,7 +167,7 @@ i am
 learning py
 ning
 hon launguage
- nohtyp
+nohtyp
 
 
 
