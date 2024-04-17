@@ -143,24 +143,3 @@ output:
   4 5 6 
 7 8 9 10 
 
-
-9>  
-   n = int(input())
-space = n-1
-start= 1
-for i in range(n):
-    for j in range(space):
-        print(" ",end = " ")
-    for j in range(start):
-        print("*",end = " ")
-    print()
-
-    space= space-1
-    start = start+1
-
-output: 
-      * 
-    * * 
-  * * * 
-* * * * 
-
